@@ -13,7 +13,7 @@ describe ('Pruebas en 05-funciones', () => {
     expect( testUser).toEqual( user);
     
     })
-})
+
 
     
 
@@ -26,4 +26,5 @@ test('getUsuarioActivo debe de retornar un objeto', ()=> {
         uid: 'ABC567',
         username: name
     })
+})
 })

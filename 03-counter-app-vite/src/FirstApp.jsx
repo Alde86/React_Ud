@@ -12,11 +12,9 @@ import PropTypes from "prop-types";
 export const FirstApp = ({ title, subTitle }) => {
   return (
     <>
-      {/* <h1>{getResult()} </h1> */}
-      {/* <h1> Aldemar</h1>
-
-      <p> Soy un titulo mas pequeño</p> */}
-      <h1>{title}</h1>;<p>{subTitle}</p>;
+      <h1>{title}</h1>
+      <p>{subTitle}</p>
+      <p>name</p>;
     </>
   );
 };
@@ -29,7 +27,7 @@ FirstApp.propTypes = {
 FirstApp.defaultProps = {
   title: "No hay titulo",
   subTitle: "No hay subtitulo",
-  name: "Aldemar Aguilera",
+  // name: "Aldemar Aguilera",
 };
 
 // const FirstApp = () => {

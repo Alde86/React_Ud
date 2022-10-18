@@ -8,9 +8,9 @@ describe('Pruebas en 02-template-string', () => {
     test('getSaludo debe retornar "hola Aldemar', () => {
 
         const name ='Aldemar';
-        const message =getSaludo (name);
+        const message = getSaludo (name);
 
 
-        expect(message).toBe('Hola ${name}')
+        expect(message).toBe(`Hola ${name}`)
     })
 })
